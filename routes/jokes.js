@@ -14,7 +14,7 @@ router.get('/answer', function (req, res) {
 
 // About page route.
 router.get('/about', function (req, res) {
-  res.send('About these jokes');
+  res.send('About this joke...');
 })
 
 module.exports = router;
